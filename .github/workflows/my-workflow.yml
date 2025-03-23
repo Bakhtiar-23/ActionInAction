@@ -2,7 +2,7 @@ name: First Workflow
 on: push
 
 jobs:
-  build:
+  MyFirstJob:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
