@@ -10,3 +10,8 @@ jobs:
 
       - name: Run a simple command
         run: echo "Hello, GitHub Actions!"
+
+      - name: List files in repository
+        run: |
+          echo "The repository ${{ github.repository }} contains the following files:"
+          tree
